@@ -1,0 +1,76 @@
+@import "reset.css";
+
+body{
+     background-color: bisque;
+}
+
+
+.container{
+     width: 600px;
+     background-color: azure;
+     position: absolute;
+     display: flex;
+     top: 100px;
+     left: 250px;
+     box-shadow: 1px -10px 9px 0px rgba(0,0,0,0.75);
+
+
+
+}
+.contactForm  {
+     width: 600px;
+     display: flex;
+     flex-direction: column;
+     align-content: space-evenly;
+     box-sizing: border-box;
+     border: 5px;
+     flex-wrap: nowrap;
+     overflow:hidden;
+
+
+}
+
+.contactFormHead{
+     height:50px;
+     text-align: left;
+     line-height: 1.5em;
+     margin-left: 5px;
+     margin-top: 5px;
+}
+
+.contactFormYourName {
+     align-items: center;
+     margin-top: 10px;
+     flex-basis: 15%;
+
+}
+.contactFormYouEmail{
+     height: 50px;
+
+}
+
+.contactFormPhone{
+     display: flex;
+     box-sizing: border-box;
+     height: 50px;
+     width: 100%;
+
+
+}
+
+.input{
+     width: 150px;
+     height: 20px;
+     margin-left: 5px;
+}
+.contactFormMassage{
+     margin-top: 5px;
+     height: 50px;
+
+}
+
+.contactFormMassage{
+     margin-top: 5px;
+     height: 50px;
+
+}
