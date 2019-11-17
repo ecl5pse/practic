@@ -1,28 +1,28 @@
-@import "reset.css";
+@import "../css/reset.css";
 
-
-body
-
+body{
+     background-image: url("../img/gory_ozero_oblaka_151341_1920x1080.jpg");
+}
 
  .contactForm {
       min-width: 600px;
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      align-items: center;
+      justify-content: space-between;
       padding: 50px;
-      min-width: 1000px;
-     background-image: url("../img/gory_ozero_oblaka_151341_1920x1080.jpg");
-
+      max-width: 1000px;
+      background-image: url("../img/gory_ozero_oblaka_151341_1920x1080.jpg");
+      margin: 25px auto;
+      box-shadow: 2px 0px 5px 7px rgba(0,0,0,0.75);
  }
 
 .contactForm > div {
      line-height: 40px;
      font-size: 20px;
      width: 100%;
-     padding: 20px;
+     padding: 8px;
      box-sizing: border-box;
-
+     margin-left: 50px;
 
 }
 
@@ -35,11 +35,12 @@ body
 .inputs > .inputPhone{
      display: flex;
      flex-direction: row;
-    justify-content: center;
+     justify-content: center;
+     margin-left: 10px;
 }
 
 #Messegen{
      width: 400px;
-     height: 250px;
+     height: 150px;
 }
 
